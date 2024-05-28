@@ -1,0 +1,38 @@
+/* serve fonts locally from the site */
+
+@font-face {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("fonts/NotoSans-Bold.ttf") format("truetype");
+}
+
+/* minimal css reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: "Noto Sans";
+    font-weight: 700;
+}
+
+
+p {
+    font-family: "Noto Sans";
+    font-weight: 400;
+}
